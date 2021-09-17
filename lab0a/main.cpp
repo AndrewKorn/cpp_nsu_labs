@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-
+    // test syntax
     std::cout << "Hello, World!" << std::endl;
     std::cout << Module1::getMyName() << std::endl;
     std::cout << Module2::getMyName() << std::endl;
