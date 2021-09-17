@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/cpp/lab0b/cmake-build-debug"/>
+				<Option working_dir="D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab0b">
-				<Option output="D:/cpp/lab0b/cmake-build-debug/lab0b.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/cpp/lab0b/cmake-build-debug"/>
+				<Option output="D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/lab0b.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab0b"/>
-					<CompileFile command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab0b"/>
+					<CompileFile command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab0b/fast">
-				<Option output="D:/cpp/lab0b/cmake-build-debug/lab0b.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/cpp/lab0b/cmake-build-debug"/>
+				<Option output="D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/lab0b.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,43 +55,43 @@
 					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab0b/fast"/>
-					<CompileFile command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab0b/fast"/>
+					<CompileFile command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/cpp/lab0b/cmake-build-debug"/>
+				<Option working_dir="D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/cpp/lab0b/cmake-build-debug"/>
+				<Option working_dir="D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MInGW/bin/mingw32-make.exe -f &quot;D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/cpp/lab0b/WordsCounter.cpp">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab0b/WordsCounter.cpp">
 			<Option target="lab0b"/>
 		</Unit>
-		<Unit filename="D:/cpp/lab0b/WordsCounter.h">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab0b/WordsCounter.h">
 			<Option target="lab0b"/>
 		</Unit>
-		<Unit filename="D:/cpp/lab0b/main.cpp">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab0b/main.cpp">
 			<Option target="lab0b"/>
 		</Unit>
-		<Unit filename="D:/cpp/lab0b/CMakeLists.txt">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab0b/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

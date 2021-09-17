@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/cpp/lab0b/WordsCounter.cpp" "D:/cpp/lab0b/cmake-build-debug/CMakeFiles/lab0b.dir/WordsCounter.cpp.obj"
-  "D:/cpp/lab0b/main.cpp" "D:/cpp/lab0b/cmake-build-debug/CMakeFiles/lab0b.dir/main.cpp.obj"
+  "D:/cpp/cpp_nsu_labs/lab0b/WordsCounter.cpp" "D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/CMakeFiles/lab0b.dir/WordsCounter.cpp.obj"
+  "D:/cpp/cpp_nsu_labs/lab0b/main.cpp" "D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/CMakeFiles/lab0b.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
