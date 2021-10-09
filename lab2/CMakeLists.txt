@@ -3,4 +3,4 @@ project(lab2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lab2 main.cpp HashTable.h HashTable.cpp)
+add_executable(lab2 main.cpp HashTable.cpp HashTable.h)

@@ -27,8 +27,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dff1e9aa-8e6e-405a-a13c-99412904007b" name="Default Changelist" comment="add 1st lab">
-      <change beforePath="$PROJECT_DIR$/lab0a/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab0a/main.cpp" afterDir="false" />
+    <list default="true" id="dff1e9aa-8e6e-405a-a13c-99412904007b" name="Default Changelist" comment="removed &quot;this&quot; where it was not needed and &quot;using namespace std&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab0b/WordsCounter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab0b/WordsCounter.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab0b" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +65,10 @@
       <option name="presentableId" value="Default" />
       <updated>1631847008507</updated>
       <workItem from="1631847010312" duration="108000" />
-      <workItem from="1631847158984" duration="310000" />
+      <workItem from="1631847158984" duration="2447000" />
+      <workItem from="1631880984573" duration="121000" />
+      <workItem from="1631882764507" duration="2000" />
+      <workItem from="1631882871428" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="add 1st lab">
       <created>1631847240700</created>
@@ -73,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631847240700</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test commit">
+      <created>1631847492009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631847492009</updated>
+    </task>
+    <task id="LOCAL-00003" summary="removed &quot;this&quot; where it was not needed and &quot;using namespace std&quot;">
+      <created>1631849035688</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631849035688</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,12 +111,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add 1st lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 1st lab" />
+    <MESSAGE value="test commit" />
+    <MESSAGE value="removed &quot;this&quot; where it was not needed and &quot;using namespace std&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed &quot;this&quot; where it was not needed and &quot;using namespace std&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1631847418343">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631848638505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1631847418343" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1631848638505" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1631848702161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631848702161" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1631849058207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1631849058207" />
   </component>
 </project>

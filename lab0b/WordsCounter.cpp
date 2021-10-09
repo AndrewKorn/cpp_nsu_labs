@@ -5,22 +5,20 @@
 #include <algorithm>
 #include <thread>
 
-using namespace std;
-
 WordsCounter::WordsCounter(std::string input_file, std::string output_file) {
     this->input_file = input_file;
     this->output_file = output_file;
 }
 
-void WordsCounter::AddWord(string word) {
-    if (this->map_of_words.find(word) == this->map_of_words.end()) {
-        this->list_of_words.push_back(word);
+void WordsCounter::AddWord(std::string word) {
+    if (map_of_words.find(word) == map_of_words.end()) {
+        list_of_words.push_back(word);
     }
-    this->map_of_words[word] += 1;
-    this->words_count += 1;
+    map_of_words[word] += 1;
+    words_count += 1;
 }
 
-void WordsCounter::DivideString(string words) {
+void WordsCounter::DivideString(std::string words) {
     int begin_idx = 0, word_len = 0;
     for (int i = 0; i < words.size(); ++i) {
         if (isalpha(words[i]) || isdigit(words[i])) {
@@ -28,7 +26,7 @@ void WordsCounter::DivideString(string words) {
         }
         else {
             if (word_len != 0) {
-                string new_word = words.substr(begin_idx, word_len);
+                std::string new_word = words.substr(begin_idx, word_len);
                 AddWord(new_word);
 
             }
@@ -37,34 +35,33 @@ void WordsCounter::DivideString(string words) {
         }
     }
     if (word_len != 0) {
-        string new_word = words.substr(begin_idx, word_len);
+        std::string new_word = words.substr(begin_idx, word_len);
         AddWord(new_word);
     }
 }
 
-bool WordsCounter::Comparator(string first, string second) {
-    return this->map_of_words[first] > this->map_of_words[second];
+bool WordsCounter::Comparator(std::string first, std::string second) {
+    return map_of_words[first] > map_of_words[second];
 }
 
 void WordsCounter::ReadFile() {
-    ifstream file;
+    std::ifstream file;
     file.open(this->input_file);
 
-    string words;
-
+    std::string words;
     while (file) {
         getline(file, words);
-        this->DivideString(words);
+        DivideString(words);
     }
-    this->list_of_words.sort(bind(&WordsCounter::Comparator, this, placeholders::_1, placeholders::_2));
 }
 
 void WordsCounter::WriteFile() {
-    ofstream file;
+    list_of_words.sort(bind(&WordsCounter::Comparator, this, std::placeholders::_1, std::placeholders::_2));
+    std::ofstream file;
     file.open(this->output_file);
-    file << "Word;Frequency;Frequency(%)" << endl;
-    for (auto &word : this->list_of_words) {
-        file << word << "; " << this->map_of_words[word] << "; " << this->map_of_words[word] / (double)this->words_count * 100 << endl;
+    file << "Word;Frequency;Frequency(%)" << std::endl;
+    for (auto &word : list_of_words) {
+        file << word << "; " << map_of_words[word] << "; " << map_of_words[word] / (double)words_count * 100 << std::endl;
     }
     file.close();
 }
