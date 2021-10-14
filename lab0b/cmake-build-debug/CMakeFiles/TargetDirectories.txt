@@ -1,3 +1,0 @@
-D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/CMakeFiles/lab0b.dir
-D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/cpp/cpp_nsu_labs/lab0b/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-D:/cpp/lab0a/cmake-build-debug/CMakeFiles/lab0a.dir
-D:/cpp/lab0a/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/cpp/lab0a/cmake-build-debug/CMakeFiles/rebuild_cache.dir
