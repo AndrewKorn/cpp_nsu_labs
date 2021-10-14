@@ -1,0 +1,2 @@
+D:\MInGW\bin\ar.exe qc ..\..\..\lib\libgmockd.a  CMakeFiles/gmock.dir/src/gmock-all.cc.obj
+D:\MInGW\bin\ranlib.exe ..\..\..\lib\libgmockd.a

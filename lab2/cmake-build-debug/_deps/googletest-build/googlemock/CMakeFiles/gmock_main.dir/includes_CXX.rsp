@@ -1,0 +1,1 @@
+-isystem D:/cpp/cpp_nsu_labs/lab2/cmake-build-debug/_deps/googletest-src/googlemock/include -isystem D:/cpp/cpp_nsu_labs/lab2/cmake-build-debug/_deps/googletest-src/googlemock -isystem D:/cpp/cpp_nsu_labs/lab2/cmake-build-debug/_deps/googletest-src/googletest/include -isystem D:/cpp/cpp_nsu_labs/lab2/cmake-build-debug/_deps/googletest-src/googletest 
