@@ -1,4 +1,4 @@
-"D:\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\cpp\cpp_nsu_labs\lab2
+"D:\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\cpp\cpp_nsu_labs\lab2
 -- Could NOT find Python (missing: Python_EXECUTABLE Interpreter) 
 -- Configuring done
 -- Generating done
