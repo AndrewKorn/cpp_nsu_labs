@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lab3.dir/Dump.cpp.obj"
+  "CMakeFiles/lab3.dir/Grep.cpp.obj"
+  "CMakeFiles/lab3.dir/ReadFile.cpp.obj"
+  "CMakeFiles/lab3.dir/Replace.cpp.obj"
+  "CMakeFiles/lab3.dir/Sort.cpp.obj"
+  "CMakeFiles/lab3.dir/WriteFile.cpp.obj"
   "CMakeFiles/lab3.dir/main.cpp.obj"
   "lab3.exe"
   "lab3.exe.manifest"

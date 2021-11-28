@@ -66,4 +66,6 @@ public:
         }
         return parsed;
     }
+
+    ~WorkflowParser() = default;
 };

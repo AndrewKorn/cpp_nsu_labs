@@ -82,16 +82,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Dump.cpp">
+			<Option target="lab3"/>
+		</Unit>
 		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Dump.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Grep.cpp">
 			<Option target="lab3"/>
 		</Unit>
 		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Grep.h">
 			<Option target="lab3"/>
 		</Unit>
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/ReadFile.cpp">
+			<Option target="lab3"/>
+		</Unit>
 		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/ReadFile.h">
 			<Option target="lab3"/>
 		</Unit>
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Replace.cpp">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Replace.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Sort.cpp">
+			<Option target="lab3"/>
+		</Unit>
 		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Sort.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/WriteFile.cpp">
 			<Option target="lab3"/>
 		</Unit>
 		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/WriteFile.h">

@@ -142,6 +142,168 @@ lab3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/build
 .PHONY : lab3/fast
 
+Dump.obj: Dump.cpp.obj
+
+.PHONY : Dump.obj
+
+# target to build an object file
+Dump.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Dump.cpp.obj
+.PHONY : Dump.cpp.obj
+
+Dump.i: Dump.cpp.i
+
+.PHONY : Dump.i
+
+# target to preprocess a source file
+Dump.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Dump.cpp.i
+.PHONY : Dump.cpp.i
+
+Dump.s: Dump.cpp.s
+
+.PHONY : Dump.s
+
+# target to generate assembly for a file
+Dump.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Dump.cpp.s
+.PHONY : Dump.cpp.s
+
+Grep.obj: Grep.cpp.obj
+
+.PHONY : Grep.obj
+
+# target to build an object file
+Grep.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Grep.cpp.obj
+.PHONY : Grep.cpp.obj
+
+Grep.i: Grep.cpp.i
+
+.PHONY : Grep.i
+
+# target to preprocess a source file
+Grep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Grep.cpp.i
+.PHONY : Grep.cpp.i
+
+Grep.s: Grep.cpp.s
+
+.PHONY : Grep.s
+
+# target to generate assembly for a file
+Grep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Grep.cpp.s
+.PHONY : Grep.cpp.s
+
+ReadFile.obj: ReadFile.cpp.obj
+
+.PHONY : ReadFile.obj
+
+# target to build an object file
+ReadFile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/ReadFile.cpp.obj
+.PHONY : ReadFile.cpp.obj
+
+ReadFile.i: ReadFile.cpp.i
+
+.PHONY : ReadFile.i
+
+# target to preprocess a source file
+ReadFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/ReadFile.cpp.i
+.PHONY : ReadFile.cpp.i
+
+ReadFile.s: ReadFile.cpp.s
+
+.PHONY : ReadFile.s
+
+# target to generate assembly for a file
+ReadFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/ReadFile.cpp.s
+.PHONY : ReadFile.cpp.s
+
+Replace.obj: Replace.cpp.obj
+
+.PHONY : Replace.obj
+
+# target to build an object file
+Replace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Replace.cpp.obj
+.PHONY : Replace.cpp.obj
+
+Replace.i: Replace.cpp.i
+
+.PHONY : Replace.i
+
+# target to preprocess a source file
+Replace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Replace.cpp.i
+.PHONY : Replace.cpp.i
+
+Replace.s: Replace.cpp.s
+
+.PHONY : Replace.s
+
+# target to generate assembly for a file
+Replace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Replace.cpp.s
+.PHONY : Replace.cpp.s
+
+Sort.obj: Sort.cpp.obj
+
+.PHONY : Sort.obj
+
+# target to build an object file
+Sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Sort.cpp.obj
+.PHONY : Sort.cpp.obj
+
+Sort.i: Sort.cpp.i
+
+.PHONY : Sort.i
+
+# target to preprocess a source file
+Sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Sort.cpp.i
+.PHONY : Sort.cpp.i
+
+Sort.s: Sort.cpp.s
+
+.PHONY : Sort.s
+
+# target to generate assembly for a file
+Sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Sort.cpp.s
+.PHONY : Sort.cpp.s
+
+WriteFile.obj: WriteFile.cpp.obj
+
+.PHONY : WriteFile.obj
+
+# target to build an object file
+WriteFile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/WriteFile.cpp.obj
+.PHONY : WriteFile.cpp.obj
+
+WriteFile.i: WriteFile.cpp.i
+
+.PHONY : WriteFile.i
+
+# target to preprocess a source file
+WriteFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/WriteFile.cpp.i
+.PHONY : WriteFile.cpp.i
+
+WriteFile.s: WriteFile.cpp.s
+
+.PHONY : WriteFile.s
+
+# target to generate assembly for a file
+WriteFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/WriteFile.cpp.s
+.PHONY : WriteFile.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +340,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab3
+	@echo ... Dump.obj
+	@echo ... Dump.i
+	@echo ... Dump.s
+	@echo ... Grep.obj
+	@echo ... Grep.i
+	@echo ... Grep.s
+	@echo ... ReadFile.obj
+	@echo ... ReadFile.i
+	@echo ... ReadFile.s
+	@echo ... Replace.obj
+	@echo ... Replace.i
+	@echo ... Replace.s
+	@echo ... Sort.obj
+	@echo ... Sort.i
+	@echo ... Sort.s
+	@echo ... WriteFile.obj
+	@echo ... WriteFile.i
+	@echo ... WriteFile.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
