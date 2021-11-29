@@ -82,40 +82,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Dump.cpp">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/Dump.cpp">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Dump.h">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/Dump.h">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Grep.cpp">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/Grep.cpp">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Grep.h">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/Grep.h">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/ReadFile.cpp">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/ReadFile.cpp">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/ReadFile.h">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/ReadFile.h">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Replace.cpp">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/Replace.cpp">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Replace.h">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/Replace.h">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Sort.cpp">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/Sort.cpp">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Sort.h">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/Sort.h">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/WriteFile.cpp">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/WriteFile.cpp">
 			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/WriteFile.h">
+		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/Blocks/WriteFile.h">
 			<Option target="lab3"/>
 		</Unit>
 		<Unit filename="D:/cpp/cpp_nsu_labs/lab3/main.cpp">

@@ -7,7 +7,7 @@ std::list<std::string> Dump::Execute(const std::list<std::string> &text, const s
     if (args.size() != 1) {
         throw InvalidNumberOfArguments();
     }
-    std::ofstream file(args[0], std::ios::app);
+    std::ofstream file(args[0]);
     if (file.is_open()) {
         for (auto &line : text) {
             file << line << std::endl;

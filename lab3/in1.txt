@@ -1,7 +1,7 @@
 desc 
 1 = readfile D:/cpp/cpp_nsu_labs/lab3/in_file.txt
 2 = writefile D:/cpp/cpp_nsu_labs/lab3/out_file.txt
-3 = sort
+3 = sort ab cd
 4 = grep abcd
 5 = dump D:/cpp/cpp_nsu_labs/lab3/test1.txt
 10 =  replace abcd dcba

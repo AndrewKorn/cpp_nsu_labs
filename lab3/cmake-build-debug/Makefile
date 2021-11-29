@@ -142,167 +142,167 @@ lab3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/build
 .PHONY : lab3/fast
 
-Dump.obj: Dump.cpp.obj
+Blocks/Dump.obj: Blocks/Dump.cpp.obj
 
-.PHONY : Dump.obj
-
-# target to build an object file
-Dump.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Dump.cpp.obj
-.PHONY : Dump.cpp.obj
-
-Dump.i: Dump.cpp.i
-
-.PHONY : Dump.i
-
-# target to preprocess a source file
-Dump.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Dump.cpp.i
-.PHONY : Dump.cpp.i
-
-Dump.s: Dump.cpp.s
-
-.PHONY : Dump.s
-
-# target to generate assembly for a file
-Dump.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Dump.cpp.s
-.PHONY : Dump.cpp.s
-
-Grep.obj: Grep.cpp.obj
-
-.PHONY : Grep.obj
+.PHONY : Blocks/Dump.obj
 
 # target to build an object file
-Grep.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Grep.cpp.obj
-.PHONY : Grep.cpp.obj
+Blocks/Dump.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Dump.cpp.obj
+.PHONY : Blocks/Dump.cpp.obj
 
-Grep.i: Grep.cpp.i
+Blocks/Dump.i: Blocks/Dump.cpp.i
 
-.PHONY : Grep.i
+.PHONY : Blocks/Dump.i
 
 # target to preprocess a source file
-Grep.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Grep.cpp.i
-.PHONY : Grep.cpp.i
+Blocks/Dump.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Dump.cpp.i
+.PHONY : Blocks/Dump.cpp.i
 
-Grep.s: Grep.cpp.s
+Blocks/Dump.s: Blocks/Dump.cpp.s
 
-.PHONY : Grep.s
+.PHONY : Blocks/Dump.s
 
 # target to generate assembly for a file
-Grep.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Grep.cpp.s
-.PHONY : Grep.cpp.s
+Blocks/Dump.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Dump.cpp.s
+.PHONY : Blocks/Dump.cpp.s
 
-ReadFile.obj: ReadFile.cpp.obj
+Blocks/Grep.obj: Blocks/Grep.cpp.obj
 
-.PHONY : ReadFile.obj
+.PHONY : Blocks/Grep.obj
 
 # target to build an object file
-ReadFile.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/ReadFile.cpp.obj
-.PHONY : ReadFile.cpp.obj
+Blocks/Grep.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Grep.cpp.obj
+.PHONY : Blocks/Grep.cpp.obj
 
-ReadFile.i: ReadFile.cpp.i
+Blocks/Grep.i: Blocks/Grep.cpp.i
 
-.PHONY : ReadFile.i
+.PHONY : Blocks/Grep.i
 
 # target to preprocess a source file
-ReadFile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/ReadFile.cpp.i
-.PHONY : ReadFile.cpp.i
+Blocks/Grep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Grep.cpp.i
+.PHONY : Blocks/Grep.cpp.i
 
-ReadFile.s: ReadFile.cpp.s
+Blocks/Grep.s: Blocks/Grep.cpp.s
 
-.PHONY : ReadFile.s
+.PHONY : Blocks/Grep.s
 
 # target to generate assembly for a file
-ReadFile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/ReadFile.cpp.s
-.PHONY : ReadFile.cpp.s
+Blocks/Grep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Grep.cpp.s
+.PHONY : Blocks/Grep.cpp.s
 
-Replace.obj: Replace.cpp.obj
+Blocks/ReadFile.obj: Blocks/ReadFile.cpp.obj
 
-.PHONY : Replace.obj
+.PHONY : Blocks/ReadFile.obj
 
 # target to build an object file
-Replace.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Replace.cpp.obj
-.PHONY : Replace.cpp.obj
+Blocks/ReadFile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/ReadFile.cpp.obj
+.PHONY : Blocks/ReadFile.cpp.obj
 
-Replace.i: Replace.cpp.i
+Blocks/ReadFile.i: Blocks/ReadFile.cpp.i
 
-.PHONY : Replace.i
+.PHONY : Blocks/ReadFile.i
 
 # target to preprocess a source file
-Replace.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Replace.cpp.i
-.PHONY : Replace.cpp.i
+Blocks/ReadFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/ReadFile.cpp.i
+.PHONY : Blocks/ReadFile.cpp.i
 
-Replace.s: Replace.cpp.s
+Blocks/ReadFile.s: Blocks/ReadFile.cpp.s
 
-.PHONY : Replace.s
+.PHONY : Blocks/ReadFile.s
 
 # target to generate assembly for a file
-Replace.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Replace.cpp.s
-.PHONY : Replace.cpp.s
+Blocks/ReadFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/ReadFile.cpp.s
+.PHONY : Blocks/ReadFile.cpp.s
 
-Sort.obj: Sort.cpp.obj
+Blocks/Replace.obj: Blocks/Replace.cpp.obj
 
-.PHONY : Sort.obj
+.PHONY : Blocks/Replace.obj
 
 # target to build an object file
-Sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Sort.cpp.obj
-.PHONY : Sort.cpp.obj
+Blocks/Replace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Replace.cpp.obj
+.PHONY : Blocks/Replace.cpp.obj
 
-Sort.i: Sort.cpp.i
+Blocks/Replace.i: Blocks/Replace.cpp.i
 
-.PHONY : Sort.i
+.PHONY : Blocks/Replace.i
 
 # target to preprocess a source file
-Sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Sort.cpp.i
-.PHONY : Sort.cpp.i
+Blocks/Replace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Replace.cpp.i
+.PHONY : Blocks/Replace.cpp.i
 
-Sort.s: Sort.cpp.s
+Blocks/Replace.s: Blocks/Replace.cpp.s
 
-.PHONY : Sort.s
+.PHONY : Blocks/Replace.s
 
 # target to generate assembly for a file
-Sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Sort.cpp.s
-.PHONY : Sort.cpp.s
+Blocks/Replace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Replace.cpp.s
+.PHONY : Blocks/Replace.cpp.s
 
-WriteFile.obj: WriteFile.cpp.obj
+Blocks/Sort.obj: Blocks/Sort.cpp.obj
 
-.PHONY : WriteFile.obj
+.PHONY : Blocks/Sort.obj
 
 # target to build an object file
-WriteFile.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/WriteFile.cpp.obj
-.PHONY : WriteFile.cpp.obj
+Blocks/Sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Sort.cpp.obj
+.PHONY : Blocks/Sort.cpp.obj
 
-WriteFile.i: WriteFile.cpp.i
+Blocks/Sort.i: Blocks/Sort.cpp.i
 
-.PHONY : WriteFile.i
+.PHONY : Blocks/Sort.i
 
 # target to preprocess a source file
-WriteFile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/WriteFile.cpp.i
-.PHONY : WriteFile.cpp.i
+Blocks/Sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Sort.cpp.i
+.PHONY : Blocks/Sort.cpp.i
 
-WriteFile.s: WriteFile.cpp.s
+Blocks/Sort.s: Blocks/Sort.cpp.s
 
-.PHONY : WriteFile.s
+.PHONY : Blocks/Sort.s
 
 # target to generate assembly for a file
-WriteFile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/WriteFile.cpp.s
-.PHONY : WriteFile.cpp.s
+Blocks/Sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/Sort.cpp.s
+.PHONY : Blocks/Sort.cpp.s
+
+Blocks/WriteFile.obj: Blocks/WriteFile.cpp.obj
+
+.PHONY : Blocks/WriteFile.obj
+
+# target to build an object file
+Blocks/WriteFile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/WriteFile.cpp.obj
+.PHONY : Blocks/WriteFile.cpp.obj
+
+Blocks/WriteFile.i: Blocks/WriteFile.cpp.i
+
+.PHONY : Blocks/WriteFile.i
+
+# target to preprocess a source file
+Blocks/WriteFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/WriteFile.cpp.i
+.PHONY : Blocks/WriteFile.cpp.i
+
+Blocks/WriteFile.s: Blocks/WriteFile.cpp.s
+
+.PHONY : Blocks/WriteFile.s
+
+# target to generate assembly for a file
+Blocks/WriteFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Blocks/WriteFile.cpp.s
+.PHONY : Blocks/WriteFile.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -340,24 +340,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab3
-	@echo ... Dump.obj
-	@echo ... Dump.i
-	@echo ... Dump.s
-	@echo ... Grep.obj
-	@echo ... Grep.i
-	@echo ... Grep.s
-	@echo ... ReadFile.obj
-	@echo ... ReadFile.i
-	@echo ... ReadFile.s
-	@echo ... Replace.obj
-	@echo ... Replace.i
-	@echo ... Replace.s
-	@echo ... Sort.obj
-	@echo ... Sort.i
-	@echo ... Sort.s
-	@echo ... WriteFile.obj
-	@echo ... WriteFile.i
-	@echo ... WriteFile.s
+	@echo ... Blocks/Dump.obj
+	@echo ... Blocks/Dump.i
+	@echo ... Blocks/Dump.s
+	@echo ... Blocks/Grep.obj
+	@echo ... Blocks/Grep.i
+	@echo ... Blocks/Grep.s
+	@echo ... Blocks/ReadFile.obj
+	@echo ... Blocks/ReadFile.i
+	@echo ... Blocks/ReadFile.s
+	@echo ... Blocks/Replace.obj
+	@echo ... Blocks/Replace.i
+	@echo ... Blocks/Replace.s
+	@echo ... Blocks/Sort.obj
+	@echo ... Blocks/Sort.i
+	@echo ... Blocks/Sort.s
+	@echo ... Blocks/WriteFile.obj
+	@echo ... Blocks/WriteFile.i
+	@echo ... Blocks/WriteFile.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
