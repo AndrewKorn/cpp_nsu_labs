@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/cpp/cpp_nsu_labs/lab2/main.cpp" "D:/cpp/cpp_nsu_labs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/main.cpp.obj"
   "D:/cpp/cpp_nsu_labs/lab2/test/test.cpp" "D:/cpp/cpp_nsu_labs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/test/test.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

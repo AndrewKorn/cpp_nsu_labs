@@ -34,44 +34,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dff1e9aa-8e6e-405a-a13c-99412904007b" name="Default Changelist" comment="add lab2 and tests">
-      <change afterPath="$PROJECT_DIR$/lab3/Block.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/BlockFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/BlockMaker.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/Dump.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/Grep.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/ReadFile.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/Replace.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/Sort.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/TemplateBlockMaker.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/WorkflowExecutor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/WorkflowParser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/WriteFile.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cpp_nsu_labs_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpp_nsu_labs_.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/Controller.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/Controller.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/Model.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/Model.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/View.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/View.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab0b.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/lab0b.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/lab0b.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
@@ -79,9 +48,12 @@
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -91,16 +63,11 @@
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/includes_CXX.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/linklibs.rsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/lab2.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/lab2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/lab2.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/lab2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/lab2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/Makefile" afterDir="false" />
@@ -141,6 +108,12 @@
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/googletest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/googletest/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/googletest/generated/GTestConfigVersion.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/googletest/generated/GTestConfigVersion.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/googletest/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/cmake-build-debug/lib/googletest-master/googletest/gtest.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ass.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/cmake-build-debug/CMakeFiles/lab3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/cmake-build-debug/CMakeFiles/lab3.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/cmake-build-debug/CMakeFiles/lab3.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/cmake-build-debug/CMakeFiles/lab3.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/cmake-build-debug/CMakeFiles/lab3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/cmake-build-debug/CMakeFiles/lab3.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/cmake-build-debug/CMakeFiles/lab3.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/cmake-build-debug/CMakeFiles/lab3.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/cmake-build-debug/CMakeFiles/lab3.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/cmake-build-debug/CMakeFiles/lab3.dir/objects.a" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,6 +147,11 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab2" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -192,11 +170,6 @@
     <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab2" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -235,6 +208,8 @@
       <workItem from="1636357371478" duration="87000" />
       <workItem from="1636358696428" duration="47000" />
       <workItem from="1636615474085" duration="10000" />
+      <workItem from="1638462552209" duration="44000" />
+      <workItem from="1638499074859" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="add 1st lab">
       <created>1631847240700</created>
