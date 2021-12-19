@@ -1,7 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab4.dir/Controller.cpp.obj"
-  "CMakeFiles/lab4.dir/Model.cpp.obj"
-  "CMakeFiles/lab4.dir/View.cpp.obj"
   "CMakeFiles/lab4.dir/main.cpp.obj"
   "lab4.exe"
   "lab4.exe.manifest"

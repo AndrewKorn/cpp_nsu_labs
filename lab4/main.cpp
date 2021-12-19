@@ -3,9 +3,9 @@
 #include "Controller.h"
 
 int main() {
-    Model model;
-    View view;
-    Controller controller;
-    controller.StartNewGame(model, view);
+    auto model = new Model();
+    View view(model);
+    Controller controller(model);
+    controller.StartNewGame();
     return 0;
 }

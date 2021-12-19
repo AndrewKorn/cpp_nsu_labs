@@ -3,4 +3,4 @@ project(lab4)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lab4 main.cpp Model.h Model.cpp View.h View.cpp Controller.h Controller.cpp)
+add_executable(lab4 main.cpp Model.h View.h Controller.h)

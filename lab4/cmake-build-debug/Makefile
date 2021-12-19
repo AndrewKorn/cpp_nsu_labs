@@ -142,87 +142,6 @@ lab4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/build
 .PHONY : lab4/fast
 
-Controller.obj: Controller.cpp.obj
-
-.PHONY : Controller.obj
-
-# target to build an object file
-Controller.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/Controller.cpp.obj
-.PHONY : Controller.cpp.obj
-
-Controller.i: Controller.cpp.i
-
-.PHONY : Controller.i
-
-# target to preprocess a source file
-Controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/Controller.cpp.i
-.PHONY : Controller.cpp.i
-
-Controller.s: Controller.cpp.s
-
-.PHONY : Controller.s
-
-# target to generate assembly for a file
-Controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/Controller.cpp.s
-.PHONY : Controller.cpp.s
-
-Model.obj: Model.cpp.obj
-
-.PHONY : Model.obj
-
-# target to build an object file
-Model.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/Model.cpp.obj
-.PHONY : Model.cpp.obj
-
-Model.i: Model.cpp.i
-
-.PHONY : Model.i
-
-# target to preprocess a source file
-Model.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/Model.cpp.i
-.PHONY : Model.cpp.i
-
-Model.s: Model.cpp.s
-
-.PHONY : Model.s
-
-# target to generate assembly for a file
-Model.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/Model.cpp.s
-.PHONY : Model.cpp.s
-
-View.obj: View.cpp.obj
-
-.PHONY : View.obj
-
-# target to build an object file
-View.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/View.cpp.obj
-.PHONY : View.cpp.obj
-
-View.i: View.cpp.i
-
-.PHONY : View.i
-
-# target to preprocess a source file
-View.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/View.cpp.i
-.PHONY : View.cpp.i
-
-View.s: View.cpp.s
-
-.PHONY : View.s
-
-# target to generate assembly for a file
-View.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/View.cpp.s
-.PHONY : View.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -259,15 +178,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab4
-	@echo ... Controller.obj
-	@echo ... Controller.i
-	@echo ... Controller.s
-	@echo ... Model.obj
-	@echo ... Model.i
-	@echo ... Model.s
-	@echo ... View.obj
-	@echo ... View.i
-	@echo ... View.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
