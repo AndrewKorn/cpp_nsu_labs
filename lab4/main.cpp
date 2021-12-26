@@ -2,7 +2,7 @@
 #include "View.h"
 #include "Controller.h"
 
-int main() {
+int main(){
     auto model = new Model();
     View view(model);
     Controller controller(model);
