@@ -4,7 +4,7 @@
 #include <fstream>
 
 int main() {
-    std::ifstream file("D://cpp/cpp_nsu_labs/lab5/in.csv");
+    std::ifstream file("D://cpp/cpp_nsu_labs/lab5(CSVParser)/in.csv");
     CSVParser<int, std::string, int> parser(file, 0);
     try {
         for (std::tuple<int, std::string, int> tp : parser) {
