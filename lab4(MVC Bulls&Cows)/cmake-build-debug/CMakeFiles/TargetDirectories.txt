@@ -1,0 +1,3 @@
+D:/cpp/cpp_nsu_labs/lab4(MVC Bulls&Cows)/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/cpp/cpp_nsu_labs/lab4(MVC Bulls&Cows)/cmake-build-debug/CMakeFiles/lab4.dir
+D:/cpp/cpp_nsu_labs/lab4(MVC Bulls&Cows)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
