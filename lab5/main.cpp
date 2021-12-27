@@ -5,9 +5,14 @@
 
 int main() {
     std::ifstream file("D://cpp/cpp_nsu_labs/lab5/in.csv");
-    CSVParser<int, std::string, float> parser(file, 0);
-    for (std::tuple<int, std::string, float> tp : parser) {
-        std::cout << tp << std::endl;
+    CSVParser<int, std::string, int> parser(file, 0);
+    try {
+        for (std::tuple<int, std::string, int> tp : parser) {
+            std::cout << tp << std::endl;
+        }
+    }
+    catch (Exception& exception) {
+        std::cout << exception.what();
     }
     return 0;
 }
