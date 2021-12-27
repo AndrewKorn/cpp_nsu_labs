@@ -62,10 +62,10 @@ RM = "D:\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\cpp\cpp_nsu_labs\lab3
+CMAKE_SOURCE_DIR = D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug
+CMAKE_BINARY_DIR = D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab3.dir/depend.make
@@ -78,94 +78,94 @@ include CMakeFiles/lab3.dir/flags.make
 
 CMakeFiles/lab3.dir/main.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab3.dir/main.cpp.obj"
-	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\main.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab3.dir/main.cpp.obj"
+	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\main.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\main.cpp
 
 CMakeFiles/lab3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/main.cpp.i"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3\main.cpp > CMakeFiles\lab3.dir\main.cpp.i
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\main.cpp > CMakeFiles\lab3.dir\main.cpp.i
 
 CMakeFiles/lab3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/main.cpp.s"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3\main.cpp -o CMakeFiles\lab3.dir\main.cpp.s
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\main.cpp -o CMakeFiles\lab3.dir\main.cpp.s
 
 CMakeFiles/lab3.dir/Blocks/ReadFile.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/Blocks/ReadFile.cpp.obj: ../Blocks/ReadFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab3.dir/Blocks/ReadFile.cpp.obj"
-	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\ReadFile.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3\Blocks\ReadFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab3.dir/Blocks/ReadFile.cpp.obj"
+	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\ReadFile.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\ReadFile.cpp
 
 CMakeFiles/lab3.dir/Blocks/ReadFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/Blocks/ReadFile.cpp.i"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3\Blocks\ReadFile.cpp > CMakeFiles\lab3.dir\Blocks\ReadFile.cpp.i
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\ReadFile.cpp > CMakeFiles\lab3.dir\Blocks\ReadFile.cpp.i
 
 CMakeFiles/lab3.dir/Blocks/ReadFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/Blocks/ReadFile.cpp.s"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3\Blocks\ReadFile.cpp -o CMakeFiles\lab3.dir\Blocks\ReadFile.cpp.s
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\ReadFile.cpp -o CMakeFiles\lab3.dir\Blocks\ReadFile.cpp.s
 
 CMakeFiles/lab3.dir/Blocks/WriteFile.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/Blocks/WriteFile.cpp.obj: ../Blocks/WriteFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab3.dir/Blocks/WriteFile.cpp.obj"
-	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\WriteFile.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3\Blocks\WriteFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab3.dir/Blocks/WriteFile.cpp.obj"
+	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\WriteFile.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\WriteFile.cpp
 
 CMakeFiles/lab3.dir/Blocks/WriteFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/Blocks/WriteFile.cpp.i"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3\Blocks\WriteFile.cpp > CMakeFiles\lab3.dir\Blocks\WriteFile.cpp.i
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\WriteFile.cpp > CMakeFiles\lab3.dir\Blocks\WriteFile.cpp.i
 
 CMakeFiles/lab3.dir/Blocks/WriteFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/Blocks/WriteFile.cpp.s"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3\Blocks\WriteFile.cpp -o CMakeFiles\lab3.dir\Blocks\WriteFile.cpp.s
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\WriteFile.cpp -o CMakeFiles\lab3.dir\Blocks\WriteFile.cpp.s
 
 CMakeFiles/lab3.dir/Blocks/Replace.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/Blocks/Replace.cpp.obj: ../Blocks/Replace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab3.dir/Blocks/Replace.cpp.obj"
-	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\Replace.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3\Blocks\Replace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab3.dir/Blocks/Replace.cpp.obj"
+	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\Replace.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Replace.cpp
 
 CMakeFiles/lab3.dir/Blocks/Replace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/Blocks/Replace.cpp.i"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3\Blocks\Replace.cpp > CMakeFiles\lab3.dir\Blocks\Replace.cpp.i
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Replace.cpp > CMakeFiles\lab3.dir\Blocks\Replace.cpp.i
 
 CMakeFiles/lab3.dir/Blocks/Replace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/Blocks/Replace.cpp.s"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3\Blocks\Replace.cpp -o CMakeFiles\lab3.dir\Blocks\Replace.cpp.s
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Replace.cpp -o CMakeFiles\lab3.dir\Blocks\Replace.cpp.s
 
 CMakeFiles/lab3.dir/Blocks/Sort.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/Blocks/Sort.cpp.obj: ../Blocks/Sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab3.dir/Blocks/Sort.cpp.obj"
-	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\Sort.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3\Blocks\Sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab3.dir/Blocks/Sort.cpp.obj"
+	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\Sort.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Sort.cpp
 
 CMakeFiles/lab3.dir/Blocks/Sort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/Blocks/Sort.cpp.i"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3\Blocks\Sort.cpp > CMakeFiles\lab3.dir\Blocks\Sort.cpp.i
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Sort.cpp > CMakeFiles\lab3.dir\Blocks\Sort.cpp.i
 
 CMakeFiles/lab3.dir/Blocks/Sort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/Blocks/Sort.cpp.s"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3\Blocks\Sort.cpp -o CMakeFiles\lab3.dir\Blocks\Sort.cpp.s
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Sort.cpp -o CMakeFiles\lab3.dir\Blocks\Sort.cpp.s
 
 CMakeFiles/lab3.dir/Blocks/Grep.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/Blocks/Grep.cpp.obj: ../Blocks/Grep.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab3.dir/Blocks/Grep.cpp.obj"
-	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\Grep.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3\Blocks\Grep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab3.dir/Blocks/Grep.cpp.obj"
+	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\Grep.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Grep.cpp
 
 CMakeFiles/lab3.dir/Blocks/Grep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/Blocks/Grep.cpp.i"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3\Blocks\Grep.cpp > CMakeFiles\lab3.dir\Blocks\Grep.cpp.i
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Grep.cpp > CMakeFiles\lab3.dir\Blocks\Grep.cpp.i
 
 CMakeFiles/lab3.dir/Blocks/Grep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/Blocks/Grep.cpp.s"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3\Blocks\Grep.cpp -o CMakeFiles\lab3.dir\Blocks\Grep.cpp.s
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Grep.cpp -o CMakeFiles\lab3.dir\Blocks\Grep.cpp.s
 
 CMakeFiles/lab3.dir/Blocks/Dump.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/Blocks/Dump.cpp.obj: ../Blocks/Dump.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab3.dir/Blocks/Dump.cpp.obj"
-	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\Dump.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3\Blocks\Dump.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab3.dir/Blocks/Dump.cpp.obj"
+	D:\MInGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Blocks\Dump.cpp.obj -c D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Dump.cpp
 
 CMakeFiles/lab3.dir/Blocks/Dump.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/Blocks/Dump.cpp.i"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3\Blocks\Dump.cpp > CMakeFiles\lab3.dir\Blocks\Dump.cpp.i
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Dump.cpp > CMakeFiles\lab3.dir\Blocks\Dump.cpp.i
 
 CMakeFiles/lab3.dir/Blocks/Dump.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/Blocks/Dump.cpp.s"
-	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3\Blocks\Dump.cpp -o CMakeFiles\lab3.dir\Blocks\Dump.cpp.s
+	D:\MInGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\Blocks\Dump.cpp -o CMakeFiles\lab3.dir\Blocks\Dump.cpp.s
 
 # Object files for target lab3
 lab3_OBJECTS = \
@@ -191,7 +191,7 @@ lab3.exe: CMakeFiles/lab3.dir/build.make
 lab3.exe: CMakeFiles/lab3.dir/linklibs.rsp
 lab3.exe: CMakeFiles/lab3.dir/objects1.rsp
 lab3.exe: CMakeFiles/lab3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable lab3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable lab3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -204,6 +204,6 @@ CMakeFiles/lab3.dir/clean:
 .PHONY : CMakeFiles/lab3.dir/clean
 
 CMakeFiles/lab3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\cpp\cpp_nsu_labs\lab3 D:\cpp\cpp_nsu_labs\lab3 D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug D:\cpp\cpp_nsu_labs\lab3\cmake-build-debug\CMakeFiles\lab3.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor) D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor) D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug D:\cpp\cpp_nsu_labs\lab3(WorkflowExecutor)\cmake-build-debug\CMakeFiles\lab3.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab3.dir/depend
 
