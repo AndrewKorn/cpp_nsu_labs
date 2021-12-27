@@ -1,4 +1,4 @@
-# Install script for directory: D:/cpp/cpp_nsu_labs/lab2/lib/googletest-master
+# Install script for directory: D:/cpp/cpp_nsu_labs/lab2(HashTable)/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpp/cpp_nsu_labs/lab2/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("D:/cpp/cpp_nsu_labs/lab2(HashTable)/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 endif()
 

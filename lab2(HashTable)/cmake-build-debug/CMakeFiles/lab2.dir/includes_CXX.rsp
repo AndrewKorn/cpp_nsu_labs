@@ -1,1 +1,1 @@
--ID:/cpp/cpp_nsu_labs/lab2/lib/googletest-master/googlemock/include -isystem D:/cpp/cpp_nsu_labs/lab2/lib/googletest-master/googletest/include -isystem D:/cpp/cpp_nsu_labs/lab2/lib/googletest-master/googletest 
+-ID:/cpp/cpp_nsu_labs/lab2(HashTable)/lib/googletest-master/googlemock/include -isystem D:/cpp/cpp_nsu_labs/lab2(HashTable)/lib/googletest-master/googletest/include -isystem D:/cpp/cpp_nsu_labs/lab2(HashTable)/lib/googletest-master/googletest 
